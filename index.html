@@ -3,7 +3,8 @@
   <head>
     <title>The Code Review</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700%7cSource+Sans+Pro:400,700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
@@ -25,33 +26,33 @@
 
         <div class="contact-row">
           <label class="contact-row-items" for="name">Full Name</label>
-          <input class="contact-row-items" type="text" id="name" name="user-name" placeholder="Required">
+          <input class="contact-row-items" type="text" id="name" name="user-name" placeholder="name - required" required>
         </div>
 
         <div class="contact-row">
         <label class="contact-row-items" for="email">Email Address</label>
-        <input class="contact-row-items" type="text" id="email" name="user-email" placeholder="Required">
+        <input class="contact-row-items" type="email" id="email" name="user-email" placeholder="email - required" required>
         </div>
 
         <div class="contact-row">
         <label class="contact-row-items" for="phone">Phone Number</label>
-        <input class="contact-row-items" type="text" id="phone" name="user-phone" placeholder="Required">
+        <input class="contact-row-items" type="text" id="phone" name="user-phone" placeholder="(***)-***-****">
         </div>
 
         <div class="contact-row">
         <label class="contact-row-items" for="street">Street Address</label>
-        <input class="contact-row-items" type="text" id="street" name="user-street-address">
+        <input class="contact-row-items" type="text" id="street" name="user-street-address" placeholder="street address">
         </div>
 
         <div class="contact-row">
         <label class="contact-row-items" for="city">City</label>
-        <input class="contact-row-items" type="text" id="city" name="user-city">
+        <input class="contact-row-items" type="text" id="city" name="user-city" placeholder="city">
         </div>
 
         <div class="contact-row">
         <label class="contact-row-items" for="state">State</label>
         <select class="contact-row-items" id="state" name="user-state">
-          <<option value="">Choose State</option>
+          <option value="">Choose State</option>
           <option value="Alabama">Alabama</option>
           <option value="Alaska">Alaska</option>
           <option value="Arizona">Arizona</option>
@@ -107,7 +108,7 @@
 
         <div class="contact-row">
         <label for="zip">Zip Code</label>
-        <input type="text" id="zip" name="user-zip">
+        <input type="text" id="zip" name="user-zip" placeholder="zip">
         </div>
       </fieldset>
 

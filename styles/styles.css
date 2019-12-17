@@ -13,7 +13,7 @@
 body {
   margin: 0;
   padding-bottom: 100px;
-  font-family: "Playfair Display", serif;
+  font-family: "Source Sans pro", sans-serif;
   color: #4A4A4A;
   text-align: center;
 }
@@ -40,6 +40,7 @@ h1 {
   background: #464159;
   margin: 0 0 35px;
   padding: 24px;
+  font-family: 'Playfair Display', serif;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -73,6 +74,7 @@ fieldset {
 
 .contact-info label,
 input[type="text"],
+input[type="email"],
 select,
 .newsletter-label,
 .newsletter-checkbox,
@@ -85,6 +87,7 @@ textarea {
 }
 
 input[type="text"],
+input[type="email"],
 select,
 textarea {
   background: #eff0f1;
@@ -95,6 +98,7 @@ textarea {
 }
 
 input[type="text"],
+input[type="email"],
 select {
   height: 55px;
 }
@@ -159,9 +163,9 @@ button[type="submit"] {
   background: #464159;
   padding: 20px 0;
   width: 100%;
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Source Sans pro", sans-serif;
   color: #fff;
   letter-spacing: 2px;
   border-radius: 5px;
@@ -206,6 +210,7 @@ button[type="submit"] {
   }
 
   input[type="text"],
+  input[type="email"],
   .contact-info label {
     margin: 0 0 20px;
   }

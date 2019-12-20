@@ -75,6 +75,7 @@ fieldset {
 .contact-info label,
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 select,
 .newsletter-label,
 .newsletter-checkbox,
@@ -88,6 +89,7 @@ textarea {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 select,
 textarea {
   background: #eff0f1;
@@ -99,6 +101,7 @@ textarea {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 select {
   height: 55px;
 }
@@ -211,6 +214,7 @@ button[type="submit"] {
 
   input[type="text"],
   input[type="email"],
+  input[type="tel"],
   .contact-info label {
     margin: 0 0 20px;
   }
